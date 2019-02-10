@@ -42,4 +42,12 @@
     <ownedEnd xmi:id="_-Cn1US0lEemktez-ZBZN0w" type="_xvkvUC0lEemktez-ZBZN0w" association="_-Cn1UC0lEemktez-ZBZN0w"/>
     <ownedEnd xmi:id="_-Cn1Ui0lEemktez-ZBZN0w" type="_vysy8C0lEemktez-ZBZN0w" association="_-Cn1UC0lEemktez-ZBZN0w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_zqwNIC0mEemktez-ZBZN0w" memberEnd="_zqwNIS0mEemktez-ZBZN0w _zqwNIi0mEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_zqwNIS0mEemktez-ZBZN0w" type="_lHGUQC0XEemktez-ZBZN0w" association="_zqwNIC0mEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_zqwNIi0mEemktez-ZBZN0w" type="_N33cgCxyEemktez-ZBZN0w" association="_zqwNIC0mEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_1qDycC0mEemktez-ZBZN0w" memberEnd="_1qEZgC0mEemktez-ZBZN0w _1qEZgS0mEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_1qEZgC0mEemktez-ZBZN0w" type="_DKHgYCxyEemktez-ZBZN0w" association="_1qDycC0mEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_1qEZgS0mEemktez-ZBZN0w" type="_lHGUQC0XEemktez-ZBZN0w" association="_1qDycC0mEemktez-ZBZN0w"/>
+  </packagedElement>
 </uml:Model>
