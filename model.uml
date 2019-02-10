@@ -1,2 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-5TLcCxxEemktez-ZBZN0w" name="NewModel"/>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_-5TLcCxxEemktez-ZBZN0w" name="NewModel">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_FEKyQCxyEemktez-ZBZN0w" name="Usuario">
+    <eAnnotations xmi:id="_FEKyQSxyEemktez-ZBZN0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_FEKyQixyEemktez-ZBZN0w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="_Jeg2oCxyEemktez-ZBZN0w" name="Aplicacion" useCase="_DKHgYCxyEemktez-ZBZN0w _HYQUwCxyEemktez-ZBZN0w _lHGUQC0XEemktez-ZBZN0w _p0vvIC0XEemktez-ZBZN0w _xvkvUC0lEemktez-ZBZN0w">
+    <ownedUseCase xmi:id="_DKHgYCxyEemktez-ZBZN0w" name="Registro" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
+    <ownedUseCase xmi:id="_HYQUwCxyEemktez-ZBZN0w" name="Introduce" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_lHGUQC0XEemktez-ZBZN0w" name="Realizar Cuestionario" subject="_Jeg2oCxyEemktez-ZBZN0w">
+      <generalization xmi:id="_vZvBsC0XEemktez-ZBZN0w" general="_HYQUwCxyEemktez-ZBZN0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_p0vvIC0XEemktez-ZBZN0w" name="Login" subject="_Jeg2oCxyEemktez-ZBZN0w">
+      <generalization xmi:id="_u0zvsC0XEemktez-ZBZN0w" general="_lHGUQC0XEemktez-ZBZN0w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_xvkvUC0lEemktez-ZBZN0w" name="Volcar" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_N33cgCxyEemktez-ZBZN0w" name="BBDD"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_PzKEgCxyEemktez-ZBZN0w" memberEnd="_PzKEgSxyEemktez-ZBZN0w _PzKrkCxyEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_PzKEgSxyEemktez-ZBZN0w" type="_FEKyQCxyEemktez-ZBZN0w" association="_PzKEgCxyEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_PzKrkCxyEemktez-ZBZN0w" type="_DKHgYCxyEemktez-ZBZN0w" association="_PzKEgCxyEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uN0oMC0XEemktez-ZBZN0w" memberEnd="_uN0oMS0XEemktez-ZBZN0w _uN0oMi0XEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_uN0oMS0XEemktez-ZBZN0w" type="_p0vvIC0XEemktez-ZBZN0w" association="_uN0oMC0XEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_uN0oMi0XEemktez-ZBZN0w" type="_FEKyQCxyEemktez-ZBZN0w" association="_uN0oMC0XEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_0LdrUC0XEemktez-ZBZN0w" memberEnd="_0LdrUS0XEemktez-ZBZN0w _0LdrUi0XEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_0LdrUS0XEemktez-ZBZN0w" type="_HYQUwCxyEemktez-ZBZN0w" association="_0LdrUC0XEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_0LdrUi0XEemktez-ZBZN0w" type="_N33cgCxyEemktez-ZBZN0w" association="_0LdrUC0XEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_vysy8C0lEemktez-ZBZN0w" name="Coordinador">
+    <eAnnotations xmi:id="_vytaAC0lEemktez-ZBZN0w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <details xmi:id="_vytaAS0lEemktez-ZBZN0w" key="Human"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8jvcgC0lEemktez-ZBZN0w" memberEnd="_8jvcgS0lEemktez-ZBZN0w _8jvcgi0lEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_8jvcgS0lEemktez-ZBZN0w" type="_xvkvUC0lEemktez-ZBZN0w" association="_8jvcgC0lEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_8jvcgi0lEemktez-ZBZN0w" type="_N33cgCxyEemktez-ZBZN0w" association="_8jvcgC0lEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-Cn1UC0lEemktez-ZBZN0w" memberEnd="_-Cn1US0lEemktez-ZBZN0w _-Cn1Ui0lEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_-Cn1US0lEemktez-ZBZN0w" type="_xvkvUC0lEemktez-ZBZN0w" association="_-Cn1UC0lEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_-Cn1Ui0lEemktez-ZBZN0w" type="_vysy8C0lEemktez-ZBZN0w" association="_-Cn1UC0lEemktez-ZBZN0w"/>
+  </packagedElement>
+</uml:Model>
