@@ -5,7 +5,7 @@
       <details xmi:id="_FEKyQixyEemktez-ZBZN0w" key="Human"/>
     </eAnnotations>
   </packagedElement>
-  <packagedElement xmi:type="uml:Component" xmi:id="_Jeg2oCxyEemktez-ZBZN0w" name="Aplicacion" useCase="_DKHgYCxyEemktez-ZBZN0w _HYQUwCxyEemktez-ZBZN0w _lHGUQC0XEemktez-ZBZN0w _p0vvIC0XEemktez-ZBZN0w _xvkvUC0lEemktez-ZBZN0w">
+  <packagedElement xmi:type="uml:Component" xmi:id="_Jeg2oCxyEemktez-ZBZN0w" name="Aplicacion" useCase="_DKHgYCxyEemktez-ZBZN0w _HYQUwCxyEemktez-ZBZN0w _lHGUQC0XEemktez-ZBZN0w _p0vvIC0XEemktez-ZBZN0w _xvkvUC0lEemktez-ZBZN0w _84NeYC0qEemktez-ZBZN0w">
     <ownedUseCase xmi:id="_DKHgYCxyEemktez-ZBZN0w" name="Registro" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
     <ownedUseCase xmi:id="_HYQUwCxyEemktez-ZBZN0w" name="Introduce" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_lHGUQC0XEemktez-ZBZN0w" name="Realizar Cuestionario" subject="_Jeg2oCxyEemktez-ZBZN0w">
@@ -15,6 +15,7 @@
       <generalization xmi:id="_u0zvsC0XEemktez-ZBZN0w" general="_lHGUQC0XEemktez-ZBZN0w"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_xvkvUC0lEemktez-ZBZN0w" name="Volcar" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_84NeYC0qEemktez-ZBZN0w" name="Veredicto" subject="_Jeg2oCxyEemktez-ZBZN0w"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_N33cgCxyEemktez-ZBZN0w" name="BBDD"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_PzKEgCxyEemktez-ZBZN0w" memberEnd="_PzKEgSxyEemktez-ZBZN0w _PzKrkCxyEemktez-ZBZN0w">
@@ -49,5 +50,29 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_1qDycC0mEemktez-ZBZN0w" memberEnd="_1qEZgC0mEemktez-ZBZN0w _1qEZgS0mEemktez-ZBZN0w">
     <ownedEnd xmi:id="_1qEZgC0mEemktez-ZBZN0w" type="_DKHgYCxyEemktez-ZBZN0w" association="_1qDycC0mEemktez-ZBZN0w"/>
     <ownedEnd xmi:id="_1qEZgS0mEemktez-ZBZN0w" type="_lHGUQC0XEemktez-ZBZN0w" association="_1qDycC0mEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wkuTgC0qEemktez-ZBZN0w" memberEnd="_wku6kC0qEemktez-ZBZN0w _wku6kS0qEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_wku6kC0qEemktez-ZBZN0w" type="_vysy8C0lEemktez-ZBZN0w" association="_wkuTgC0qEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_wku6kS0qEemktez-ZBZN0w" type="_p0vvIC0XEemktez-ZBZN0w" association="_wkuTgC0qEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xNeVkC0qEemktez-ZBZN0w" memberEnd="_xNeVkS0qEemktez-ZBZN0w _xNeVki0qEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_xNeVkS0qEemktez-ZBZN0w" type="_vysy8C0lEemktez-ZBZN0w" association="_xNeVkC0qEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_xNeVki0qEemktez-ZBZN0w" type="_DKHgYCxyEemktez-ZBZN0w" association="_xNeVkC0qEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_E5P8oC0rEemktez-ZBZN0w" memberEnd="_E5P8oS0rEemktez-ZBZN0w _E5P8oi0rEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_E5P8oS0rEemktez-ZBZN0w" type="_lHGUQC0XEemktez-ZBZN0w" association="_E5P8oC0rEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_E5P8oi0rEemktez-ZBZN0w" type="_84NeYC0qEemktez-ZBZN0w" association="_E5P8oC0rEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_F2irUC0rEemktez-ZBZN0w" memberEnd="_F2jSYC0rEemktez-ZBZN0w _F2jSYS0rEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_F2jSYC0rEemktez-ZBZN0w" type="_N33cgCxyEemktez-ZBZN0w" association="_F2irUC0rEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_F2jSYS0rEemktez-ZBZN0w" type="_84NeYC0qEemktez-ZBZN0w" association="_F2irUC0rEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_GXLTMC0rEemktez-ZBZN0w" memberEnd="_GXLTMS0rEemktez-ZBZN0w _GXL6QC0rEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_GXLTMS0rEemktez-ZBZN0w" type="_84NeYC0qEemktez-ZBZN0w" association="_GXLTMC0rEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_GXL6QC0rEemktez-ZBZN0w" type="_FEKyQCxyEemktez-ZBZN0w" association="_GXLTMC0rEemktez-ZBZN0w"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G2ByYC0rEemktez-ZBZN0w" memberEnd="_G2ByYS0rEemktez-ZBZN0w _G2ByYi0rEemktez-ZBZN0w">
+    <ownedEnd xmi:id="_G2ByYS0rEemktez-ZBZN0w" type="_84NeYC0qEemktez-ZBZN0w" association="_G2ByYC0rEemktez-ZBZN0w"/>
+    <ownedEnd xmi:id="_G2ByYi0rEemktez-ZBZN0w" type="_vysy8C0lEemktez-ZBZN0w" association="_G2ByYC0rEemktez-ZBZN0w"/>
   </packagedElement>
 </uml:Model>
